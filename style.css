@@ -1,0 +1,211 @@
+* {
+    font-family: nunito;
+}
+
+form {
+    background-color: #CFCFCF;
+    border: 3px solid #00FF00;
+    padding: 20px;
+    float: left;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    background: #8B4789;
+    color: #00FF00;
+    border:1px solid #00FF00;
+    border-radius: 4px;
+}
+
+.register {
+    color: #8B4789;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.name {
+    color: #8B4789;
+    padding: 8px;
+    display: block;
+}
+
+#name {
+    width: 410px;
+    height: 20px;
+}
+
+.email {
+    color:#8B4789;
+    padding: 8px;
+    display: block;
+}
+
+#email {
+    width: 412px;
+    height: 20px;
+
+}
+
+
+.age {
+    color: #8B4789;
+    padding: 8px;
+    display: block;
+}
+
+#age {
+    width: 410px;
+    height: 20px;
+}
+
+
+.birth-date {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+#date {
+    width: 150px;
+    height: 22px; 
+}
+
+.networks {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+.sex {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+.eye-color {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+.story {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+#story {
+    background: #8B4789;
+    color: #00FF00;
+    border:1px solid #00FF00;
+    border-radius: 5px;
+    width: 390px;
+    height: 20px;
+}
+
+.profile {
+    color: #8B4789; 
+    padding: 10px;
+    display: block;
+}
+
+#file {
+    width: 300px;
+    height: 20px;
+}
+
+.phone {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+.facebook {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+#url {
+    width: 270px;
+    height: 20px; 
+}
+
+.password {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+}
+
+#pass {
+    width: 270px;
+    height: 20px; 
+}
+
+.button {
+    color: #8B4789;
+    padding: 10px;
+    display: block;
+    font-style: bold;
+    margin-top: 20px;
+}
+
+#button-reset {
+    font: bold 15px nunito;
+    text-transform: uppercase;
+    background: #8B008B;
+    font-style: bold;
+    color: #00FF00;
+    margin: 0 55px;
+    border: 1px solid #00FF00;
+    border-style: groove;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#button-reset:hover {
+    font: bold 15px nunito;
+    text-transform: uppercase;
+    background: #8B668B;
+    font-style: bold;
+    color: #00FF00;
+    margin: 0 53px;
+    border: 1px solid #00FF00;
+    border-style: groove;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#button-submit {
+    font: bold 15px nunito;
+    text-transform: uppercase;
+    background: #8B008B;
+    font-style: bold;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    border-style: groove;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#button-submit:hover {
+    font: bold 15px nunito;
+    text-transform: uppercase;
+    background: #8B668B;
+    font-style: bold;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    border-style: groove;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}

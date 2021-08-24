@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Desafio 2 - HTML </title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <div class="register">
+            <legend>Cadastro</legend>
+        </div>
+
+        <div class="name">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" size="22" required> 
+        </div>
+
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" required size="22" required id="email">
+        </div>
+
+        <div class="age">
+            <label for="age">Idade:</label>
+            <input type="number" name="age" id="age" minlength="12" inputmode="numeric" size="10" style="width: 40px;"
+                required>
+        </div>
+
+        <div class="birth-date">
+            <label for="birth-date">Data de Nascimento:</label>
+            <input type="date" name="birth-date" inputmode="numeric" required id="date">
+        </div>
+
+        <div class="networks">
+            <label for="networks">Onde você possui conta?</label>
+            <input type="checkbox" name="instagram" id="instagram"> Instagram <input type="checkbox" name="facebook"
+                id="facebook"> Facebook <input type="checkbox" name="youtube" id="youtube"> Youtube
+        </div>
+
+        <div class="sex">
+            <label for="sex"> Sexo: </label>
+            <input type="radio" name="masculine" id="masculine"> Masculino <input type="radio" name="feminine"
+                id="feminine" required> Feminino
+        </div>
+
+        <div class="eye-color">
+            Cor dos olhos: <input type="color" value="">
+        </div>
+
+        <div class="story">
+            <label for="story"> Biografia </label>
+            <textarea id="story" name="story" size="22"> </textarea>
+        </div>
+
+        <div class="profile">
+            <form action="" method="POST" enctype="multipart/form-data">
+                <label for="profile">Foto do Perfil:</label><br>
+                <input type="file" accept="png/jpg/jpge" id="file" >
+        </div>
+
+        <div class="phone">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" input mode="numeric" size="22" required>
+        </div>
+
+        <div class="facebook">
+            <label for="url">Link do perfil do Facebook:</label>
+            <input type="url" name="url" id="url" pattern="https://.*" size="22" required>
+        </div>
+
+        <div class="password">
+            <label for="password">Senha:</label>
+            <input type="password" minlength="6" maxlength="8" inputmode="numeric" size="22" required id="pass">
+        </div>
+
+        <div class="button">
+            <button type="reset" value="resetar" id="button-reset">Reset</button>
+            <button type="submit" value="submit" id="button-submit">Enviar dados</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
